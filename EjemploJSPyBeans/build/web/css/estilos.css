@@ -1,0 +1,15 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20-may-2020, 20:05:08
+    Author     : Bruno
+*/
+
+form div {margin-top: 1.5em;}
+
+label {font-weight: bold}
+
+label:first-child{display: block; margin-bottom: .25em;}

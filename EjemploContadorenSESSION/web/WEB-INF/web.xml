@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>otroContador</servlet-name>
+        <servlet-class>Servlets.otroContador</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>unContador</servlet-name>
+        <servlet-class>Servlets.unContador</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ReiniciarContador</servlet-name>
+        <servlet-class>Servlets.ReiniciarContador</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>otroContador</servlet-name>
+        <url-pattern>/otroContador</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>unContador</servlet-name>
+        <url-pattern>/unContador</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ReiniciarContador</servlet-name>
+        <url-pattern>/ReiniciarContador</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
